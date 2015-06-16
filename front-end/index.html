@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-tac-toe</title>
+
+	<!-- Bootstrap CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- My styling: -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container col-lg-6 col-lg-offset-4" id="container">
+		
+		<div class="jumbotron">
+			<h1>Tic-tac-toe</h1>
+			<p class="lead">A simple one-page app that casts AJAX requests to server and obtain responses with computer's moves from server that stands on Node.js</p>
+		</div>
+
+		<div id="game">
+			<div id="map" class="col-lg-6">
+				<table class="table table-bordered ">
+					<tr>
+						<td><button id="0" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+						<td><button id="1" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+						<td><button id="2" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+					</tr>
+					<tr>
+						<td><button id="3" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+						<td><button id="4" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+						<td><button id="5" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+					</tr>
+					<tr>
+						<td><button id="6" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+						<td><button id="7" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+						<td><button id="8" class="btn btn-default btn-lg"><span class="glyphicon"></span></button></td>
+					</tr>
+				</table>
+			</div>
+			
+			<div id="nav" class="col-lg-6">
+				<button class="btn btn-primary btn-lg" id="reset">Reset</button>
+				<hr>
+				Click on one of nine buttons to start the game! Good luck!
+			</div>
+		</div>
+
+	</div>
+	
+	<!-- Libraries: -->
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	<!-- My Scripts: -->
+	<script src="js/script.js"></script>
+</body>
+</html>
