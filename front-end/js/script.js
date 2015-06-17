@@ -1,7 +1,7 @@
 (function () {
 
 	// Constants
-	var DOMAIN = "";
+	var DOMAIN = "http://localhost:3003";
 
 	// checks if there is a winner
 	function isWon (map) {
