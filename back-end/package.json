@@ -1,0 +1,14 @@
+{
+  "name": "Tic-tac-toe",
+  "version": "0.0.0",
+  "description": "Simple tic-tac-toe game for one player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bartosz Dec",
+  "license": "MIT License",
+  "dependencies": {
+    "express": "~4.12.4"
+  }
+}
